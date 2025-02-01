@@ -1,5 +1,7 @@
-# AssemblyThingsIdk
 
-# Instructions to run 
-(idk why you would ever run this but ok)
-make, just make
+# AssemblyThingsIdk
+Instructions to run:
+
+(Idk why you would ever run this but ok)
+
+make, just  make
