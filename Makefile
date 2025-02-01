@@ -4,7 +4,7 @@ LINKER=ld
 LINKER_FLAGS=
 OUTPUT=main
 
-all main.asm:
+all: main.asm
 	@mkdir -p dep
 	@mkdir -p build
 	@$(COMPILER) $(COMPILER_FLAGS) -o dep/main.o main.asm
