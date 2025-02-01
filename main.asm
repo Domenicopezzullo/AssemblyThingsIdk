@@ -1,7 +1,7 @@
 global _start
 
 section .data
-helloworld: db "Insert a thing: "
+helloworld: db "Insert some text: "
         .len: equ $ - helloworld
 
 section .bss
