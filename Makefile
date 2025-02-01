@@ -9,5 +9,5 @@ all main.asm:
 	@mkdir -p build
 	@$(COMPILER) $(COMPILER_FLAGS) -o dep/main.o main.asm
 	@$(LINKER) -o build/$(OUTPUT) $(LINKER_FLAGS) dep/main.o
-	@./build/main
+	@./build/$(OUTPUT)
 	@rm -rf dep
